@@ -1030,7 +1030,7 @@ ion-icon{
     }
 }
 
-@media screen and (min-width: 410px) and (max-width: 700px) {
+@media screen and (min-width: 410px) and (max-width: 830px) {
     body{
         height: auto;
         min-height: 100%;
@@ -1137,7 +1137,7 @@ ion-icon{
     }
     .fondo{
         background-color: #14213D;
-        height: 360px;
+        height: 365px;
         width: 100%;
         z-index: -1;
         position: absolute;

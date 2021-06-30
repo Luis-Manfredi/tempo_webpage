@@ -524,7 +524,7 @@ ion-icon{
     justify-content: flex-start;
 }
 
-@media only screen and (max-width: 330px) and (min-width: 350px) {
+@media only screen and (min-width: 320px) and (max-width: 350px){
     body{
         height: auto;
         min-height: 100%;
@@ -624,7 +624,7 @@ ion-icon{
         top: 45px;
         right: 0;
         width: 100%;
-        height: 100%;
+        height: 600px;
         text-align: center;
         background-color: #E5E5E5;
         /* box-shadow: 0 5px 10px 5px rgb(0 0 0 / 45%); */
@@ -767,13 +767,13 @@ ion-icon{
         width: 75%;
     }
     .wrapper1{
-        width: 320px;
+        width: 300px;
     }
     .wrapper2{
-        width: 320px;
+        width: 300px;
     } 
     .wrapper3{
-        width: 320px;
+        width: 300px;
     }
 }
 
@@ -1030,7 +1030,7 @@ ion-icon{
     }
 }
 
-@media screen and (min-width: 410px) and (max-width: 450px) {
+@media screen and (min-width: 410px) and (max-width: 700px) {
     body{
         height: auto;
         min-height: 100%;

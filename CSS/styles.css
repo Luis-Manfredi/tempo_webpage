@@ -1137,7 +1137,7 @@ ion-icon{
     }
     .fondo{
         background-color: #14213D;
-        height: 330px;
+        height: 360px;
         width: 100%;
         z-index: -1;
         position: absolute;
@@ -1174,11 +1174,11 @@ ion-icon{
     }
     .seccion1{
         flex-direction: column;
-        margin-top: 15em;
+        margin-top: 16.5em;
     }
     .seccion1 h2{
         text-align: center;
-        margin-top: 3.5em;
+        margin-top: 3em;
     }
     .seccion1 .start{
         display: flex;
@@ -1189,7 +1189,7 @@ ion-icon{
         width: 50%;
     }
     .seccion3{
-        margin-top: 8em;
+        margin-top: 10em;
     }
     .seccion3 h2{
         font-size: 1.5em;

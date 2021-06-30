@@ -1289,5 +1289,75 @@ ion-icon{
     }
 }
 
+@media only screen and (min-width: 850px) and (max-width: 1000px) {
+
+    h1{
+      font-size: 1.5em;  
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.25em;
+    }
+    p{
+        font-size: 1em;
+    }
+    .intro{
+        margin-top: 1em;
+    }
+    .phone{
+        margin-top: 6em;
+    }
+    .seccion1 h2{
+        margin-top: 3em;
+    }
+    .seccion3{
+        margin-top: 21em;
+    }
+    .seccion5{
+        flex-direction: row;
+    }
+    .seccion5 h2{
+        font-size: 1em;
+    }
+    .seccion5 h3{
+        font-size: 1em;
+    }
+    .seccion5 .caja2 ul li a{
+        font-size: 0.75em;
+    }
+    .seccion6{
+        justify-content: space-between;
+    }
+    .seccion6 a{
+        font-size: 1em;
+    }
+    #fondo{
+        height: 360px;
+    }
+    .caja1{
+        margin: 0.5em;
+    }
+    .caja1 p{
+        font-size: 0.75em;
+    }
+    .caja2{
+        margin: 1em !important;
+    }
+    .start{
+        font-size: 0.75em;
+    }
+    .wrapper1{
+        width: 800px;
+    }
+    .wrapper2{
+        width: 800px;
+    }
+    .wrapper3{
+        width: 800px;
+    }
+}
+
 
 

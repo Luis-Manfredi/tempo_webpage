@@ -114,7 +114,14 @@
     
         <div class="seccion4">
             <h2>Get Your Music</h2>
-    
+            <div class="toggle">
+                <p id="month">Monthly</p>
+                <label class="switch">
+                    <input type="checkbox" id="check" oninput="precio()">
+                    <span class="slider round"></span>
+                </label>
+                <p id="year">Annual</p>
+            </div>
             <div class="contenedor">
                 <div class="caja1">
                     <h3>Tempo Free</h3>
@@ -162,7 +169,7 @@
     
                 <div class="caja1" id="premium">
                     <h3>Tempo Premium</h3>
-                    <h4>$4.99 / month</h4>
+                    <h4 id="prem">$4.99 / month</h4>
                     <ul>
                         <li>
                             <div class="lista">
@@ -206,7 +213,7 @@
     
                 <div class="caja1">
                     <h3>Tempo Family</h3>
-                    <h4>$7.99 / month</h4>
+                    <h4 id="family">$7.99 / month</h4>
                     <ul>
                         <li>
                             <div class="lista">
@@ -335,6 +342,7 @@
     </footer>
 
     <script src="JS/menu.js"></script>
+    <script src="JS/toggle.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>

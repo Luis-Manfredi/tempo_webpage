@@ -109,7 +109,7 @@ ion-icon{
     background-color: #fff;
 }
 
-.sign_in{
+.sign_up{
     font-size: 1em;
     font-weight: bold;
     background-color: #FCA311;
@@ -122,7 +122,7 @@ ion-icon{
     transition: 0.5s;
 }
 
-.sign_in:hover{
+.sign_up:hover{
     background-color: #fcd911;
 }
 
@@ -731,7 +731,7 @@ input:checked + .slider:before {
     .phone{
         display: none;
     }
-    .sign_in{
+    .sign_up{
         font-size: 0.5em;
     }
     .log_in{
@@ -984,7 +984,7 @@ input:checked + .slider:before {
     .phone{
         display: none;
     }
-    .sign_in{
+    .sign_up{
         font-size: 0.5em;
     }
     .log_in{
@@ -1236,7 +1236,7 @@ input:checked + .slider:before {
     .phone{
         display: none;
     }
-    .sign_in{
+    .sign_up{
         font-size: 0.5em;
     }
     .log_in{
